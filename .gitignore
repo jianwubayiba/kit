@@ -23,3 +23,4 @@ temp/
 go.sum
 .github
 /.github/
+/script/*.go
