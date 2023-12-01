@@ -20,7 +20,7 @@ func TestToLowerFirstCamelCase(t *testing.T) {
 
 func TestToLowerSnakeCase(t *testing.T) {
 	Convey("Test if ToLowerSnakeCase works", t, func() {
-		So(ToLowerSnakeCase("test -to lowerCamel Case"), ShouldEqual, "test_to_lower_camel_case")
+		So(ToLowerSnakeCase("test -to lowerCamel Case"), ShouldEqual, "test-to-lower-camel-case")
 	})
 }
 

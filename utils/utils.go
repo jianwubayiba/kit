@@ -3,6 +3,7 @@ package utils
 import (
 	"os"
 	"path/filepath"
+	"regexp"
 	"runtime"
 	"strings"
 
@@ -38,8 +39,18 @@ func ToUpperFirst(s string) string {
 }
 
 // ToLowerSnakeCase the given string in snake-case format.
+// match Unicode letter and number,other letter will be converted to letter _
 func ToLowerSnakeCase(s string) string {
-	return strings.ToLower(godash.ToSnakeCase(s))
+
+	// Define a regular expression to match Unicode letters
+	pattern := regexp.MustCompile(`[^\p{L}\p{N}]+`)
+
+	// Replace Unicode letters with their lowercase counterparts
+	result := pattern.ReplaceAllStringFunc(s, func(match string) string {
+		return "-"
+	})
+
+	return strings.ToLower(result)
 }
 
 // ToCamelCase the given string in camelcase format.
