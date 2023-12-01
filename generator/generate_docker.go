@@ -8,8 +8,8 @@ import (
 
 	"strings"
 
-	"github.com/GrantZheng/kit/fs"
-	"github.com/GrantZheng/kit/utils"
+	"github.com/jianwubayiba/kit/fs"
+	"github.com/jianwubayiba/kit/utils"
 	"github.com/spf13/afero"
 	"github.com/spf13/viper"
 )

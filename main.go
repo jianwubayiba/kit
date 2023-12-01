@@ -4,7 +4,7 @@ import (
 	"path"
 	"runtime"
 
-	"github.com/GrantZheng/kit/cmd"
+	"github.com/jianwubayiba/kit/cmd"
 	"github.com/spf13/viper"
 )
 

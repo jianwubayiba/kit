@@ -10,13 +10,13 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/GrantZheng/kit/fs"
-	grpcTemplate "github.com/GrantZheng/kit/generator/template/grpc"
-	"github.com/GrantZheng/kit/parser"
-	"github.com/GrantZheng/kit/utils"
 	"github.com/dave/jennifer/jen"
 	"github.com/emicklei/proto"
 	"github.com/emicklei/proto-contrib/pkg/protofmt"
+	"github.com/jianwubayiba/kit/fs"
+	grpcTemplate "github.com/jianwubayiba/kit/generator/template/grpc"
+	"github.com/jianwubayiba/kit/parser"
+	"github.com/jianwubayiba/kit/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )

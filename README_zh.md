@@ -1,9 +1,9 @@
-# GoKit CLI  [![Build Status](https://github.com/GrantZheng/kit/workflows/Go/badge.svg)](https://github.com/GrantZheng/kit/actions)[![Go Report Card](https://goreportcard.com/badge/github.com/GrantZheng/kit)](https://goreportcard.com/report/github.com/GrantZheng/kit)[![Coverage Status](https://coveralls.io/repos/github/GrantZheng/kit/badge.svg?branch=master)](https://coveralls.io/github/GrantZheng/kit?branch=master)
+# GoKit CLI  [![Build Status](https://github.com/jianwubayiba/kit/workflows/Go/badge.svg)](https://github.com/jianwubayiba/kit/actions)[![Go Report Card](https://goreportcard.com/badge/github.com/jianwubayiba/kit)](https://goreportcard.com/report/github.com/jianwubayiba/kit)[![Coverage Status](https://coveralls.io/repos/github/GrantZheng/kit/badge.svg?branch=master)](https://coveralls.io/github/GrantZheng/kit?branch=master)
 
 translate to: [English](./README.md) | 简体中文  
 
 
-本项目fork自[kit](https://github.com/kujtimiihoxha/kit)，并计划在将来维护它。kit是一个优秀的工具，并在我们的团队中得到广泛应用。一些功能和bug已经完成并修复，例如支持go module，替换一些旧的依赖项等，欢迎各位开发者提供建议。
+本项目fork自[kit](https://github.com/GrantZheng/kit)，并计划在将来维护它。kit是一个优秀的工具，并在我们的团队中得到广泛应用。一些功能和bug已经完成并修复，例如支持go module，替换一些旧的依赖项等，欢迎各位开发者提供建议。
 
 gokit cli 是一个可以在你开发微服务时帮助你的工具，它是[gk](https://github.com/kujtimiihoxha/gk)的高级版。虽然gk确实可以帮助您创建基本的文件夹结构，但它实际上无法在项目中进一步使用，gokit cli希望能够改变这一点。
 
@@ -37,12 +37,12 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
 
 ```bash
 # in the go1.17 or latest
-go install github.com/GrantZheng/kit@latest
+go install github.com/jianwubayiba/kit@latest
 
 # go version =< go1.16 
-go install github.com/GrantZheng/kit
+go install github.com/jianwubayiba/kit
 # or
-go get -u github.com/GrantZheng/kit
+go get -u github.com/jianwubayiba/kit
 ```
 
 

@@ -12,10 +12,10 @@ import (
 	"bytes"
 	"go/format"
 
-	"github.com/GrantZheng/kit/fs"
-	"github.com/GrantZheng/kit/parser"
-	"github.com/GrantZheng/kit/utils"
 	"github.com/dave/jennifer/jen"
+	"github.com/jianwubayiba/kit/fs"
+	"github.com/jianwubayiba/kit/parser"
+	"github.com/jianwubayiba/kit/utils"
 	"github.com/sirupsen/logrus"
 )
 

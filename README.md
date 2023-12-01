@@ -1,8 +1,8 @@
-# GoKit CLI  [![Build Status](https://github.com/GrantZheng/kit/workflows/Go/badge.svg)](https://github.com/GrantZheng/kit/actions)[![Go Report Card](https://goreportcard.com/badge/github.com/GrantZheng/kit)](https://goreportcard.com/report/github.com/GrantZheng/kit)[![Coverage Status](https://coveralls.io/repos/github/GrantZheng/kit/badge.svg?branch=master)](https://coveralls.io/github/GrantZheng/kit?branch=master)
+# GoKit CLI  [![Build Status](https://github.com/jianwubayiba/kit/workflows/Go/badge.svg)](https://github.com/jianwubayiba/kit/actions)[![Go Report Card](https://goreportcard.com/badge/github.com/jianwubayiba/kit)](https://goreportcard.com/report/github.com/jianwubayiba/kit)[![Coverage Status](https://coveralls.io/repos/github/GrantZheng/kit/badge.svg?branch=master)](https://coveralls.io/github/GrantZheng/kit?branch=master)
 
 translate to: English | [简体中文](./README_zh.md)  
 
-I fork the project from [kit](https://github.com/kujtimiihoxha/kit) and plan to maintain it in the future. The kit tool is a great job, and deeply used in our team. Some features and bugs have been done and fixed, such as supporting go module,replacing some old dependencies and so on. I am very glad to receive recommend about it.
+I fork the project from [kit](https://github.com/GrantZheng/kit) and plan to maintain it in the future. The kit tool is a great job, and deeply used in our team. Some features and bugs have been done and fixed, such as supporting go module,replacing some old dependencies and so on. I am very glad to receive recommend about it.
 
 This project is a more advanced version of [gk](https://github.com/kujtimiihoxha/gk).
 The goal of the gokit cli is to be a tool that you can use while you develop your microservices with `gokit`.
@@ -31,12 +31,12 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 Before you install please read [prerequisites](#prerequisites)
 ```bash
 # in the go1.17 or latest
-go install github.com/GrantZheng/kit@latest
+go install github.com/jianwubayiba/kit@latest
 
 # go version =< go1.16 
-go install github.com/GrantZheng/kit
+go install github.com/jianwubayiba/kit
 # or
-go get -u github.com/GrantZheng/kit
+go get -u github.com/jianwubayiba/kit
 ```
 
 
